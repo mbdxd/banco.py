@@ -31,10 +31,9 @@ class SistemaBancario:
         print(f"Saldo atual: R$ {self.saldo:.2f}")
         print(f"Saque(s) restante(s) hoje: {self.saque_restante}")
 
-# Criar uma instância do sistema bancário
+
 sistema = SistemaBancario()
 
-# Exemplo de uso
 sistema.depositar(1000)
 sistema.depositar(1500)
 sistema.sacar(300)
